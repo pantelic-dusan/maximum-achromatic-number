@@ -1,0 +1,90 @@
+
+% !TEX encoding = UTF-8 Unicode
+\documentclass[a4paper]{article}
+
+\setcounter{tocdepth}{1}
+
+\usepackage{color}
+\usepackage{url}
+\usepackage[T2A]{fontenc} % enable Cyrillic fonts
+\usepackage[utf8]{inputenc} % make weird characters work
+\usepackage{graphicx}
+
+\usepackage[english,serbianc]{babel}
+
+\usepackage[unicode]{hyperref}
+\hypersetup{colorlinks,citecolor=green,filecolor=green,linkcolor=blue,urlcolor=blue}
+
+\usepackage{listings}
+
+\definecolor{mygreen}{rgb}{0,0.6,0}
+\definecolor{mygray}{rgb}{0.5,0.5,0.5}
+\definecolor{mymauve}{rgb}{0.58,0,0.82}
+
+\lstset{ 
+  backgroundcolor=\color{white},
+  basicstyle=\scriptsize\ttfamily,  
+  breakatwhitespace=false,         
+  breaklines=true,                 
+  captionpos=b,                   
+  commentstyle=\color{mygreen},   
+  deletekeywords={...},           
+  escapeinside={\%*}{*)},          
+  extendedchars=true,              
+  firstnumber=1000,                
+  frame=single,	                   
+  keepspaces=true,                 
+  keywordstyle=\color{blue},       
+  language=Python,                 
+  morekeywords={*,...},            
+  numbers=left,                    
+  numbersep=5pt,                   
+  numberstyle=\tiny\color{mygray},
+  rulecolor=\color{black},        
+  showspaces=false,               
+  showstringspaces=false,          
+  showtabs=false,                  
+  stepnumber=2,                   
+  stringstyle=\color{mymauve},     
+  tabsize=2,	                   
+  title=\lstname                   
+}
+
+\begin{document}
+
+\title{\Large Решавање проблема максималног ахроматског броја\\ \small{Научни рад у оквиру курса Рачунарска интелигенција\\ Математички факултет}}
+
+\author{Душан Пантелић\\ pantelic.dusan@protonmail.com}
+
+\maketitle
+
+\begin{center}
+	\includegraphics[width=3cm]{images/pmf.png}
+\end{center}
+
+\abstract{
+Кроз овај рад читалац ће бити упућен у проблем максималног ахроматског броја, као и у решевање истог. Пре свега, шта представља максимални ахроматски број, његов значај, примену, али и проблеме при његовом одређивању. Представљени су алгоритми за решавање проблема и њихова компарација, као и њихове позитивне и негативне стране. Читалац ће такође добити увид у експерименталне податке извршавања представљених алгоритама са примењеним статистичким методама зарад стварања шире слике о практичној примени. На крају рада сумирани су закључци истраживања и изложени правци за даље истраживање и унапређивање.
+\tableofcontents
+
+\newpage
+
+\section{Увод}
+\label{sec:intro}
+
+\section{Решење проблема}
+\label{sec:problem-solution}
+
+\section{Експериментални резултати}
+\label{sec:experimet-results}
+
+\section{Закључак}
+\label{sec:conclusion}
+
+
+\addcontentsline{toc}{section}{Литература}
+\appendix
+\bibliography{maximum-achromatic-number} 
+\bibliographystyle{plain}
+
+\newpage
+\end{document}
