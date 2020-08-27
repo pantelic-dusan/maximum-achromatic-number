@@ -1,2 +1,2 @@
 # maximum-achromatic-number
-Maximum Achromatic Number
+Naucni rad na temu: 'Resavanje problema maksimalnog ahromatskog broja'
